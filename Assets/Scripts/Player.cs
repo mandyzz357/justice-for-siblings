@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     void Start()
     {
 
-        if (gameMonange.spawnPosition != Vector3.zero)
+        if (gameMonange.spawnPosition != null)
         {
             transform.position = gameMonange.spawnPosition;
         }
@@ -87,19 +87,19 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Transicaopika"))
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio2");
-        }
+        //if (collision.CompareTag("Transicaopika"))
+        //{
+        //    UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio2");
+        //}
 
-        if (collision.CompareTag("voltar"))
-        {
+        //if (collision.CompareTag("voltar"))
+        //{
 
-            gameMonange.spawnPosition = new Vector3(8.42f, -3.45f, 0f);
+        //    gameMonange.spawnPosition = new Vector3(8.42f, -3.45f, 0f);
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio1");
+        //    UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio1");
             
-        }
+        //}
 
 
     }
