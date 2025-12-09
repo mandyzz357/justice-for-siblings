@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 1b89882a378932448b40e4e0da6ce2a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4100108844887195095
+    second: BigornaMorta_0
+  - first:
+      213: -4521683603292382700
+    second: BigornaMorta_1
+  - first:
+      213: 6283675148337521215
+    second: BigornaMorta_2
+  - first:
+      213: -8836666050544547282
+    second: BigornaMorta_3
+  - first:
+      213: 4392405729711511265
+    second: BigornaMorta_4
+  - first:
+      213: -7580357583003622483
+    second: BigornaMorta_5
+  - first:
+      213: 3073660455706271748
+    second: BigornaMorta_6
+  - first:
+      213: -1475111214531685207
+    second: BigornaMorta_7
+  - first:
+      213: -5891817313335163131
+    second: BigornaMorta_8
+  - first:
+      213: -1908657074488179774
+    second: BigornaMorta_9
+  - first:
+      213: -1987726874870814658
+    second: BigornaMorta_10
+  - first:
+      213: 1674681406752903152
+    second: BigornaMorta_11
+  - first:
+      213: 3525221636462434967
+    second: BigornaMorta_12
+  - first:
+      213: -97377673350416581
+    second: BigornaMorta_13
+  - first:
+      213: -4542037821391184405
+    second: BigornaMorta_14
+  - first:
+      213: 5988603176445942627
+    second: BigornaMorta_15
+  - first:
+      213: -6674276371182364668
+    second: BigornaMorta_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 65
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigornaMorta_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1176
+        width: 126
+        height: 348
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922cf089abc7917c0800000000000000
+      internalID: -4100108844887195095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1176
+        width: 126
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a9c0f38b0cf31c0800000000000000
+      internalID: -4521683603292382700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_2
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1176
+        width: 186
+        height: 342
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32ab9c4149143750800000000000000
+      internalID: 6283675148337521215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_3
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1174
+        width: 192
+        height: 347
+      alignment: 9
+      pivot: {x: 0.42, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ac982bb0bdd5580800000000000000
+      internalID: -8836666050544547282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 792
+        width: 205
+        height: 346
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da361a2d0f82dc690800000000000000
+      internalID: -7580357583003622483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 792
+        width: 150
+        height: 330
+      alignment: 9
+      pivot: {x: 0.42, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4d4a57a2a578be0800000000000000
+      internalID: -1475111214531685207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_9
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 792
+        width: 144
+        height: 300
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c38815d0861385e0800000000000000
+      internalID: -1908657074488179774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 792
+        width: 144
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38e3d050fc2a64e0800000000000000
+      internalID: -1987726874870814658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 408
+        width: 150
+        height: 282
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff4579ddd9ad3710800000000000000
+      internalID: 1674681406752903152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 408
+        width: 162
+        height: 276
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a5dd3a66a1ce030800000000000000
+      internalID: 3525221636462434967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 408
+        width: 210
+        height: 234
+      alignment: 9
+      pivot: {x: 0.56, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37f4e2a58b06aef0800000000000000
+      internalID: -97377673350416581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_14
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 408
+        width: 366
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedd69b8aa077f0c0800000000000000
+      internalID: -4542037821391184405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 366
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b16d82cdacb1350800000000000000
+      internalID: 5988603176445942627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigornaMorta_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 24
+        width: 366
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40854e290053063a0800000000000000
+      internalID: -6674276371182364668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c398c3f24553ba34dabaadfd8473cc04
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BigornaMorta_0: -4100108844887195095
+      BigornaMorta_1: -4521683603292382700
+      BigornaMorta_10: -1987726874870814658
+      BigornaMorta_11: 1674681406752903152
+      BigornaMorta_12: 3525221636462434967
+      BigornaMorta_13: -97377673350416581
+      BigornaMorta_14: -4542037821391184405
+      BigornaMorta_15: 5988603176445942627
+      BigornaMorta_16: -6674276371182364668
+      BigornaMorta_2: 6283675148337521215
+      BigornaMorta_3: -8836666050544547282
+      BigornaMorta_4: 4392405729711511265
+      BigornaMorta_5: -7580357583003622483
+      BigornaMorta_6: 3073660455706271748
+      BigornaMorta_7: -1475111214531685207
+      BigornaMorta_8: -5891817313335163131
+      BigornaMorta_9: -1908657074488179774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

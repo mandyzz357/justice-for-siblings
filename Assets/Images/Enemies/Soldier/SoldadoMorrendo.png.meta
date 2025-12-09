@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 965922c053a60f641bb76d938ed9574c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6902313086283341069
+    second: SoldadoMorrendo_0
+  - first:
+      213: 2148670881845168362
+    second: SoldadoMorrendo_1
+  - first:
+      213: -3058029097036580495
+    second: SoldadoMorrendo_2
+  - first:
+      213: 7267100693758801895
+    second: SoldadoMorrendo_3
+  - first:
+      213: 2492098540484913359
+    second: SoldadoMorrendo_4
+  - first:
+      213: 4565405014116559904
+    second: SoldadoMorrendo_5
+  - first:
+      213: -4471398762655567596
+    second: SoldadoMorrendo_6
+  - first:
+      213: 1811440839180885331
+    second: SoldadoMorrendo_7
+  - first:
+      213: 2595343585582399864
+    second: SoldadoMorrendo_8
+  - first:
+      213: -1037169933116529332
+    second: SoldadoMorrendo_9
+  - first:
+      213: 3819127562310199769
+    second: SoldadoMorrendo_10
+  - first:
+      213: -4377731821873010357
+    second: SoldadoMorrendo_11
+  - first:
+      213: 8835154968264079500
+    second: SoldadoMorrendo_12
+  - first:
+      213: -5687260315943789253
+    second: SoldadoMorrendo_13
+  - first:
+      213: 1055965762186831821
+    second: SoldadoMorrendo_14
+  - first:
+      213: -7333496175073853276
+    second: SoldadoMorrendo_15
+  - first:
+      213: 3471242798299380906
+    second: SoldadoMorrendo_16
+  - first:
+      213: 307864962285834340
+    second: SoldadoMorrendo_17
+  - first:
+      213: -1711551740222509239
+    second: SoldadoMorrendo_18
+  - first:
+      213: -105924451173688442
+    second: SoldadoMorrendo_19
+  - first:
+      213: -6215771253174429007
+    second: SoldadoMorrendo_20
+  - first:
+      213: 6436899753678156990
+    second: SoldadoMorrendo_21
+  - first:
+      213: 4888685792694890340
+    second: SoldadoMorrendo_22
+  - first:
+      213: -6225230214345792289
+    second: SoldadoMorrendo_23
+  - first:
+      213: 2610886342910297181
+    second: SoldadoMorrendo_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoldadoMorrendo_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 328
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae84b9b68cc91dd10800000000000000
+      internalID: 2148670881845168362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 328
+        width: 56
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7fc76049de9d460800000000000000
+      internalID: 7267100693758801895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 328
+        width: 70
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc86fda3b66b59220800000000000000
+      internalID: 2492098540484913359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 168
+        width: 84
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8714ab88d33840420800000000000000
+      internalID: 2595343585582399864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 168
+        width: 84
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d927678844400530800000000000000
+      internalID: 3819127562310199769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 168
+        width: 80
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49e55b2a1c2f33c0800000000000000
+      internalID: -4377731821873010357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 8
+        width: 79
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fe31cb3d918d340800000000000000
+      internalID: 4888685792694890340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 83
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4e3ec4a1a8b99a0800000000000000
+      internalID: -6225230214345792289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoMorrendo_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 7
+        width: 79
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54461abb4bbb3420800000000000000
+      internalID: 2610886342910297181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0011fc4349d82d048bcf483b858503b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SoldadoMorrendo_0: -6902313086283341069
+      SoldadoMorrendo_1: 2148670881845168362
+      SoldadoMorrendo_10: 3819127562310199769
+      SoldadoMorrendo_11: -4377731821873010357
+      SoldadoMorrendo_12: 8835154968264079500
+      SoldadoMorrendo_13: -5687260315943789253
+      SoldadoMorrendo_14: 1055965762186831821
+      SoldadoMorrendo_15: -7333496175073853276
+      SoldadoMorrendo_16: 3471242798299380906
+      SoldadoMorrendo_17: 307864962285834340
+      SoldadoMorrendo_18: -1711551740222509239
+      SoldadoMorrendo_19: -105924451173688442
+      SoldadoMorrendo_2: -3058029097036580495
+      SoldadoMorrendo_20: -6215771253174429007
+      SoldadoMorrendo_21: 6436899753678156990
+      SoldadoMorrendo_22: 4888685792694890340
+      SoldadoMorrendo_23: -6225230214345792289
+      SoldadoMorrendo_24: 2610886342910297181
+      SoldadoMorrendo_3: 7267100693758801895
+      SoldadoMorrendo_4: 2492098540484913359
+      SoldadoMorrendo_5: 4565405014116559904
+      SoldadoMorrendo_6: -4471398762655567596
+      SoldadoMorrendo_7: 1811440839180885331
+      SoldadoMorrendo_8: 2595343585582399864
+      SoldadoMorrendo_9: -1037169933116529332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

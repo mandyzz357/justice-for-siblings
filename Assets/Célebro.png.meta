@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "C\xE9lebro_0": 4345252907611095782
+      "C\xE9lebro_1": -5066039500584414439
+      "C\xE9lebro_2": -426120272808139037
+      "C\xE9lebro_3": -2299997819492065320
+      "C\xE9lebro_4": -3545239823001216177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

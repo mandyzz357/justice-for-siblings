@@ -150,10 +150,10 @@ TextureImporter:
       name: AnvilAndandoFrente_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 640
-        height: 640
+        x: 220
+        y: 1320
+        width: 200
+        height: 580
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: AnvilAndandoFrente_1
       rect:
         serializedVersion: 2
-        x: 635
-        y: 1280
-        width: 640
-        height: 640
+        x: 860
+        y: 1320
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: AnvilAndandoFrente_2
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1280
-        width: 640
-        height: 640
+        x: 1500
+        y: 1320
+        width: 200
+        height: 550
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: AnvilAndandoFrente_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 638
-        width: 640
-        height: 640
+        x: 220
+        y: 680
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: AnvilAndandoFrente_4
       rect:
         serializedVersion: 2
-        x: 647
-        y: 638
-        width: 640
-        height: 640
+        x: 860
+        y: 680
+        width: 200
+        height: 580
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: AnvilAndandoFrente_5
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 638
-        width: 640
-        height: 640
+        x: 1500
+        y: 680
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: AnvilAndandoFrente_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 640
+        x: 220
+        y: 40
+        width: 200
+        height: 550
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: AnvilAndandoFrente_7
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 640
-        height: 640
+        x: 860
+        y: 40
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

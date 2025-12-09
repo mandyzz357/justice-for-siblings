@@ -150,10 +150,10 @@ TextureImporter:
       name: AnvilParadaFrente_0
       rect:
         serializedVersion: 2
-        x: 219
-        y: 1319
-        width: 202
-        height: 582
+        x: 220
+        y: 1320
+        width: 200
+        height: 580
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: AnvilParadaFrente_1
       rect:
         serializedVersion: 2
-        x: 859
-        y: 1319
-        width: 202
-        height: 572
+        x: 860
+        y: 1320
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,12 +194,12 @@ TextureImporter:
       name: AnvilParadaFrente_2
       rect:
         serializedVersion: 2
-        x: 1497
-        y: 1319
-        width: 202
-        height: 562
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+        x: 1500
+        y: 1320
+        width: 200
+        height: 560
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,10 +216,10 @@ TextureImporter:
       name: AnvilParadaFrente_3
       rect:
         serializedVersion: 2
-        x: 219
-        y: 679
-        width: 202
-        height: 542
+        x: 220
+        y: 680
+        width: 200
+        height: 540
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: AnvilParadaFrente_4
       rect:
         serializedVersion: 2
-        x: 859
-        y: 679
-        width: 202
-        height: 562
+        x: 860
+        y: 680
+        width: 200
+        height: 560
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: AnvilParadaFrente_5
       rect:
         serializedVersion: 2
-        x: 1499
-        y: 679
-        width: 202
-        height: 572
+        x: 1500
+        y: 680
+        width: 200
+        height: 570
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: AnvilParadaFrente_6
       rect:
         serializedVersion: 2
-        x: 219
-        y: 39
-        width: 202
-        height: 582
+        x: 220
+        y: 40
+        width: 200
+        height: 580
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: AnvilParadaFrente_7
       rect:
         serializedVersion: 2
-        x: 859
-        y: 39
-        width: 202
-        height: 582
+        x: 860
+        y: 40
+        width: 200
+        height: 580
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,108 +1,141 @@
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
+    [Header("Movimento")]
+    public float speed = 5f;
 
-    public float speed;
+    [Header("Vida")]
+    public int vidaMax = 10;
+    private int vidaAtual;
+    public bool Morto;
 
     private Animator anim;
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
-    
+    public PlayerHealth pH;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public DirecaoMovimento direcaoMovimento;
+
     void Start()
     {
-
-        if (gameMonange.spawnPosition != null)
-        {
-            transform.position = gameMonange.spawnPosition;
-        }
+        Morto = false;
+        // Inicializa vida
+        vidaAtual = vidaMax;
+        pH = GetComponent<PlayerHealth>();
+        pH.MaxVidaPlayer = vidaMax;
 
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+
+        direcaoMovimento = DirecaoMovimento.Direita;
+
+        // Posicionamento inicial (caso exista)
+        if (gameMonange.spawnPosition != Vector3.zero)
+            transform.position = gameMonange.spawnPosition;
     }
 
-    // Update is called once per frame
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        Vector2 direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
-        rb.linearVelocity = direction.normalized * speed;
-
-        if(direction.x != 0)
+        if (!Morto)
         {
-            ResetLayers();
 
-            anim.SetLayerWeight(2, 1);
 
-            if (direction.x > 0)
+            Vector2 direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+            // Movimento
+            rb.linearVelocity = direction.normalized * speed;
+
+            // Animação horizontal
+            if (direction.x != 0)
             {
-                sprite.flipX = false;
+                ResetLayers();
+                anim.SetLayerWeight(2, 1);
+                sprite.flipX = direction.x < 0;
             }
 
-            else if (direction.x < 0)
+            // Animação vertical
+            if (direction.y > 0 && direction.x == 0)
             {
-                sprite.flipX = true;
+                ResetLayers();
+                anim.SetLayerWeight(1, 1);
             }
-        }
+            else if (direction.y < 0 && direction.x == 0)
+            {
+                ResetLayers();
+                anim.SetLayerWeight(0, 1);
+            }
 
-        if (direction.y > 0 && direction.x == 0)
-        {
-            ResetLayers();
-            anim.SetLayerWeight(1, 1);
+            anim.SetBool("walking", direction != Vector2.zero);
 
-        }
-
-        if (direction.y < 0 && direction.x == 0)
-        {
-            ResetLayers();
-            anim.SetLayerWeight(0, 1);
+            // Direção para armas / tiros
+            if (direction.x > 0) direcaoMovimento = DirecaoMovimento.Direita;
+            else if (direction.x < 0) direcaoMovimento = DirecaoMovimento.Esquerda;
 
         }
-
-        if (direction != Vector2.zero)
-        {
-            anim.SetBool("walking", true);
-        }
-
-        else
-        {
-            anim.SetBool("walking", false);
-        }
-     }
-
+    }
 
     private void ResetLayers()
     {
         anim.SetLayerWeight(0, 0);
         anim.SetLayerWeight(1, 0);
         anim.SetLayerWeight(2, 0);
-      
+    }
+
+    // =====================
+    // Método público para receber dano
+    // =====================
+    public void ReceberDano(int dano)
+    {
+        if (!Morto)
+        {
+            vidaAtual -= dano;
+            //Debug.Log($"Player levou {dano} de dano! Vida atual: {vidaAtual}");
+
+            pH.ReceberDano(vidaAtual);
+
+            if (vidaAtual <= 0)
+            {
+                Morrer();
+                Morto = true;
+            }
+        }
+    }
+
+    private void Morrer()
+    {
+        Debug.Log("Player morreu!");
+        rb.linearVelocity = Vector2.zero;
+        anim.SetTrigger("game over");
+
+
+        StartCoroutine(Vortemo());
+    }
+
+    public IEnumerator Vortemo()
+    {
+
+        
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("GameOver");
 
     }
+
+    private IEnumerator Ganhemo()
+    {
+
+
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Vitoria");
+
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.CompareTag("Transicaopika"))
-        //{
-        //    UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio2");
-        //}
-
-        //if (collision.CompareTag("voltar"))
-        //{
-
-        //    gameMonange.spawnPosition = new Vector3(8.42f, -3.45f, 0f);
-
-        //    UnityEngine.SceneManagement.SceneManager.LoadScene("Laborotorio1");
-            
-        //}
-
-
+      
     }
-
-
 }
